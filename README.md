@@ -4,8 +4,9 @@ This project implements a maze solver using Breadth-First Search (BFS) and dynam
 
 ## Folder Structure
 
+```bash
 AI_PROJECT/<br> 
-</t>├── generated_maze.png <tab># Generated maze image used for testing <br>
+├── generated_maze.png <tab># Generated maze image used for testing <br>
 <br>
 ├── grid_to_image.py # Converts grid representations to images <br>
 <br>
@@ -15,7 +16,7 @@ AI_PROJECT/<br>
 <br>
 ├── map.png # Sample map image for testing
 <br>
-
+```
 
 
 ### File Descriptions
