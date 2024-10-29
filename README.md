@@ -5,7 +5,7 @@ This project implements a maze solver using Breadth-First Search (BFS) and dynam
 ## Folder Structure
 
 AI_PROJECT/<br> 
-├── generated_maze.png # Generated maze image used for testing <br>
+<\t>├── generated_maze.png # Generated maze image used for testing <br>
 <br>
 ├── grid_to_image.py # Converts grid representations to images <br>
 <br>
