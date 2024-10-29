@@ -1,0 +1,6 @@
+*.png
+*.jpg
+transformer_model
+__pycache__/
+*.pt
+*.json
