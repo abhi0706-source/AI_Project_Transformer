@@ -6,11 +6,15 @@ This project implements a maze solver using Breadth-First Search (BFS) and dynam
 
 AI_PROJECT/<br> 
 ├── generated_maze.png # Generated maze image used for testing <br>
+<br>
 ├── grid_to_image.py # Converts grid representations to images <br>
+<br>
 ├── main_code.py # Main code for maze solving and visualization <br>
+<br>
 ├── map_parser.py # Parses maze maps from images or other sources <br>
+<br>
 ├── map.png # Sample map image for testing
-
+<br>
 ### File Descriptions
 
 - *generated_maze.png*: A maze image used by main_code.py to perform maze-solving tests. This image should include start, end, walls, and open paths.
