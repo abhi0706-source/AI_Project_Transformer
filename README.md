@@ -77,12 +77,6 @@ The project includes a `server.py` script to deploy the trained model as a web A
    ```bash
    python server.py
 ```
-# Image Captioning with Transformer Model
-
-## Overview
-
-This project implements an image captioning system using a transformer-based model. The system generates descriptive captions for images from a specified dataset, aiming to improve accuracy over traditional CNN and RNN approaches.
-
 ## Project Structure
 
 The project directory is organized as follows:
