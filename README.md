@@ -93,7 +93,7 @@ The project directory is organized as follows:
 ```
 ## Model URL
 The trained model can be downloaded from the following link: 
-``` https://drive.google.com/file/d/1bwpG3-Jh5d_IM4dYmEsDt39I-bl7n9qn/view ```
+<a href="https://drive.google.com/file/d/1bwpG3-Jh5d_IM4dYmEsDt39I-bl7n9qn/view">Model Download</a>
 
 ## Acknowledgments
 
