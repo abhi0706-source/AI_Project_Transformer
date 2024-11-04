@@ -91,6 +91,10 @@ The project directory is organized as follows:
 └── README.md             # Project documentation
 
 ```
+## Model URL
+The trained model can be downloaded from the following link: 
+``` https://drive.google.com/file/d/1bwpG3-Jh5d_IM4dYmEsDt39I-bl7n9qn/view ```
+
 ## Acknowledgments
 
 Special thanks to the open-source community and the contributors who helped build the libraries and datasets used in this project.
