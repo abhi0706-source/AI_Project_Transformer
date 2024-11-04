@@ -8,8 +8,6 @@ This repository contains the code for an image captioning model using transforme
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Training and Evaluation](#training-and-evaluation)
-- [Model](#model)
 - [Requirements](#requirements)
 - [Acknowledgments](#acknowledgments)
 
