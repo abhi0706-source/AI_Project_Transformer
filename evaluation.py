@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
     # Counter to track how many images have been processed
     counter = 0
-    stop_image_id = 443640
+    stop_image_id = 0
 
     # Process each image in validation data
     for annotation in validation_data["annotations"]:
@@ -171,19 +171,19 @@ if __name__ == "__main__":
         counter += 1
 
         # Stop processing if 100 images have been processed
-        if counter >= 100 or image_id == stop_image_id:
+        if counter >= 4000 or image_id == stop_image_id:
             break
 
     # Evaluate the model
-    ngm_scores = calculate_ngram_metrics(
-        generated_captions, list(reference_captions.values())
-    )
+    # ngm_scores = calculate_ngram_metrics(
+    #     generated_captions, list(reference_captions.values())
+    # )
     bleu_score = calculate_bleu(generated_captions, list(reference_captions.values()))
     rouge_scores = calculate_rouge(
         generated_captions, list(reference_captions.values())
     )
 
     # Print the evaluation scores
-    print("N-Gram Metrics:", ngm_scores)
+    # print("N-Gram Metrics:", ngm_scores)
     print("BLEU Score:", bleu_score)
     print("ROUGE Scores:", rouge_scores)

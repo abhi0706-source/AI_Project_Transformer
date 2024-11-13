@@ -23,9 +23,7 @@ def load_model(model_save_dir, device):
     tokenizer.add_special_tokens({"pad_token": "[PAD]"})
 
     # Define local model checkpoint path and Google Drive URL
-    model_checkpoint_path = os.path.join(
-        model_save_dir, "checkpoint_epoch_149_iter_155.pt"
-    )
+    model_checkpoint_path = os.path.join(model_save_dir, "best_model_300_epochs.pt")
     file_id = "1bwpG3-Jh5d_IM4dYmEsDt39I-bl7n9qn"
     url = f"https://drive.google.com/uc?id={file_id}"
 
@@ -98,7 +96,7 @@ def generate_caption(model, image_tensor, tokenizer):
 
 if __name__ == "__main__":
     # Define paths and device
-    model_save_dir = "models"  # Path to your saved model
+    model_save_dir = "model"  # Path to your saved model
     image_path = "uploaded_images/COCO_val2014_000000000294.jpg"  # Replace with your test image path
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

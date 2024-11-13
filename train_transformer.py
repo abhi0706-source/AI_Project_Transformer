@@ -199,9 +199,9 @@ if __name__ == "__main__":
         "learning_rate": 5e-5,
         "image_dir": "coco_dataset/images/train2014",
         "model_save_dir": "model",
-        "num_epochs": 1,
+        "num_epochs": 10,
         "batch_size": 50,
-        "num_samples_per_epoch": 500,
+        "num_samples_per_epoch": 5000,
     }
     outputs = {}
 
